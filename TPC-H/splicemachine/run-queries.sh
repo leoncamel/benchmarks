@@ -7,7 +7,8 @@ timeout=0
 
 test ! -e ${logdir} && mkdir -p ${logdir}
 
-HOST="localhost"
+#HOST="localhost"
+HOST="10.250.0.11"
 PORT="1527"
 USER="splice"
 PASS="admin"
